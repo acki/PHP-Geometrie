@@ -28,7 +28,7 @@ h2{
 <p>Siehe den PHP-Quellcode dieser Seite an, um zu verstehen, was hier demonstriert wird.</p>
 <?php
 
-//Das ist der Kreis Nummer eins
+//Das ist der Kreiss Nummer eins
 $Kreis = new Kreis;
 $Kreis->setUmfang(100);
 print '<h2>Kreis</h2>';
@@ -39,6 +39,7 @@ print '<tr><th>Durchmesser</th><td>'.$Kreis->getDurchmesser().'</td></tr>';
 print '<tr><th>Umfang</th><td>'.$Kreis->getUmfang().'</td></tr>';
 print '</table>';
 
+//Schoenes Wetter
 //Quadrat
 $Quadrat = new Quadrat;
 $Quadrat->setSeitenlaenge(5);
