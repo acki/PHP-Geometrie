@@ -28,7 +28,7 @@ h2{
 <p>Siehe den PHP-Quellcode dieser Seite an, um zu verstehen, was hier demonstriert wird.</p>
 <?php
 
-//Das ist der Kreis
+//Das ist der Kreis Nummer eins
 $Kreis = new Kreis;
 $Kreis->setUmfang(100);
 print '<h2>Kreis</h2>';
